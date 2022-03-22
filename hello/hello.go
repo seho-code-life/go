@@ -64,8 +64,8 @@ func fib(l int) (res int) {
 
 // 用closure实现fib
 func closureFib(l int) (cb func() int) {
-	var a int = 0 1 3 8
- 	var b int = 1 2 5 13
+	var a int = 0
+	var b int = 1
 	return func() int {
 		c := a
 		a = b
